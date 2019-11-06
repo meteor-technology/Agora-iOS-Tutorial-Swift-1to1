@@ -1,8 +1,8 @@
 # iOS 1-to-1 Tutorial for Swift
 
-*English | [中文](README.zh.md)*
-
 This tutorial enables you to quickly get started in your development efforts to create an iOS app with real-time video calls, voice calls, and interactive broadcasting. With this sample app you can:
+
+**This repository is fork from [AgoraIO/Basic-Video-Call](https://github.com/AgoraIO/Basic-Video-Call).**
 
 - Start and end audio/visual communication between two users.
 - Join a communication channel.
@@ -12,7 +12,7 @@ This tutorial enables you to quickly get started in your development efforts to 
 
 ## Prerequisites
 
-- Xcode 10.0+
+- Xcode 11+
 - Physical iOS device (iPhone or iPad)
 
 ## Quick Start
@@ -36,15 +36,8 @@ To build and run the sample application, get an App ID:
     ```
 
 ### Integrate the Agora Video SDK
-
-
-1. Download the [Agora Video SDK](https://www.agora.io/en/download/). Unzip the downloaded SDK package and copy the following files from the SDK `libs` folder into the sample application `Agora iOS Tutorial` folder.
-    - `AograRtcEngineKit.framework`
-    - `AgoraRtcCryptoLoader.framework`
-    - `libcrypto.a`
-  
-2. Connect your iPhone or iPad device and run the project. Ensure a valid provisioning profile is applied or your project will not run.
-
+- Install Agora Video SDK with CocoaPods. e.g. `bundle exec pod install`
+- open `Agora iOS Tutorial.xcworkspace`
 
 ## Resources
 
